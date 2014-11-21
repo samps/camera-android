@@ -2,18 +2,18 @@
 //add code here to handle camerafunction 
 
 
-document.addEventListener('deviceready', onDeviceReady, false);
+document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
 	console.log(navigator.camera);
-	alert('Device is ready!')
+	//alert('Device is ready!')
 }
 
-TakePhotoUsingCamera() {
+function TakePhotoUsingCamera() {
 	TakePhoto(Camera.PictureSourceType.CAMERA);
 }
 
-TakePhotoFromLibrary() {
+function TakePhotoFromLibrary() {
 	TakePhoto(Camera.PictureSourceType.PHOTOLIBRARY);
 }
 
