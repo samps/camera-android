@@ -12,9 +12,10 @@ function onBatteryStatus(info) {
 
 function onDeviceReady() {
 	console.log(navigator.camera);
-	//alert("Device is ready!");
-alert(device.model);
+	alert("Device is ready!");
+	alert(device.model);
     alert(batterystatus.level);
+	alert("Last alert");
 }
 
 function TakePhotoUsingCamera() {
