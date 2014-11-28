@@ -14,7 +14,7 @@ function onDeviceReady() {
 	console.log(navigator.camera);
 	alert("Device is ready!");
 	alert(device.model);
-    alert(batterystatus.level);
+    //alert(batterystatus.level);
 	alert(device.uuid);
 	alert("Last alert");
 }
