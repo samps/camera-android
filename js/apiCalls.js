@@ -15,6 +15,7 @@ function onDeviceReady() {
 	alert("Device is ready!");
 	alert(device.model);
     alert(batterystatus.level);
+	alert(device.uuid);
 	alert("Last alert");
 }
 
