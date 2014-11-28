@@ -7,6 +7,7 @@ document.addEventListener("batterystatus",onBatteryStatus, false);
 
 function onBatteryStatus(info) {
 	console.log("Level: "+info.level+" Plugged in: "+info.isPlugged);
+	alert("Level: "+info.level+" Plugged in: "+info.isPlugged);
 }
 
 function onDeviceReady() {
