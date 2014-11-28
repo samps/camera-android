@@ -13,6 +13,7 @@ function onBatteryStatus(info) {
 function onDeviceReady() {
 	console.log(navigator.camera);
 	//alert('Device is ready!')
+    alert("Level: "+batterystatus.level+" Plugged in: "+batterystatus.isPlugged);
 }
 
 function TakePhotoUsingCamera() {
