@@ -3,6 +3,11 @@
 
 
 document.addEventListener("deviceready", onDeviceReady, false);
+document.addEventListener("batterystatus",onBatteryStatus, false);
+
+function onBatteryStatus(info) {
+	console.log("Level: "+info.level+" Plugged in: "+info.isPlugged);
+}
 
 function onDeviceReady() {
 	console.log(navigator.camera);
