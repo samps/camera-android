@@ -17,6 +17,7 @@ function onDeviceReady() {
     //alert(batterystatus.level);
 	alert(device.uuid);
 	alert("Last alert");
+	navigator.vibrate(2);
 }
 
 function TakePhotoUsingCamera() {
